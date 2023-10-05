@@ -18,14 +18,23 @@ ul {
     padding: 0;
 }
 
-.blue-round {
+.blue-round,
+.bottom-container {
     color: white;
     background-color: #3882f6;
-    padding: 10px 20px 10px 20px;
     border: none;
     border-radius: 8px;
+    display: flex;
+    align-items: center;
 }
 
+.blue-round {
+    padding: 10px 20px 10px 20px;
+}
+
+.bottom-container {
+    padding: 20px;
+}
 .top-img,
 .squared {
     object-fit: cover;
@@ -169,4 +178,28 @@ ul {
 
 .content-button {
     background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-button-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+}
+
+.content-button-title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.content-button-main {
+    color: #e5e7eb;
+}
+
+.content-button-button {
+    border: 1px solid white;
+    margin: 20px;
+    border-radius: 8px;
 }

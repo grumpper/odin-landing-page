@@ -1,5 +1,5 @@
 * {
-    font-family: Verdana, "DejaVu Sans", sans-serif;
+    font-family: Helvetica, "Times New Roman", sans-serif;
 }
 
 body {
@@ -144,6 +144,27 @@ ul {
 
 .content-quote {
     background: #e5e7eb;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-quote-text,
+.content-quote-author {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.content-quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.content-quote-author {
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 20px;
 }
 
 .content-button {

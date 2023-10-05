@@ -1,11 +1,13 @@
 * {
-    font-family: Verdana, "DejaVu Sans", sans-serif
+    font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    width: 100vw;
     height: 100vh;
+    margin: 0;
 }
 
 ul {
@@ -26,10 +28,11 @@ ul {
     display: flex;
     align-items: center;
     background: #1f2937;
-    background-size: 50%;
     color: #e5e7eb;
     font-size: 18px;
     height: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .header {
@@ -47,8 +50,33 @@ ul {
 }
 
 .content {
-    flex: 5;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex: 1;
+    flex-direction: column;
+}
+
+.content-top,
+.content-stacks,
+.content-quote,
+.content-button {
+    display: flex;
+    flex: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content-top {
+    background: #1f2937;
+}
+
+.content-stacks {
+    background: white;
+}
+
+.content-quote {
+    background: #e5e7eb;
+}
+
+.content-button {
+    background: white;
 }

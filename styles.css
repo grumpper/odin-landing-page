@@ -18,6 +18,14 @@ ul {
     padding: 0;
 }
 
+.blue-round {
+    color: white;
+    background-color: #3882f6;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
 .website-padding {
     padding-left: 200px;
     padding-right: 200px;
@@ -67,6 +75,24 @@ ul {
 
 .content-top {
     background: #1f2937;
+    gap: 50px;
+}
+
+.content-top-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content-top-text-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.content-top-text-main {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .content-stacks {
